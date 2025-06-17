@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manual Poker Texas Hold'em</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -17,7 +18,7 @@
         header {
             background: #222;
             color: #fff;
-            padding: 1rem 2rem;
+            padding: 1.5rem 2rem;
             text-align: center;
         }
         main {
@@ -68,70 +69,87 @@
 <body>
     <header>
         <h1>Manual de Poker Texas Hold'em</h1>
-        <p>Versión 1.0 · Por Federico Martín Criscuolo</p>
+        <p>Versión ilustrada para principiantes · Por Federico Martín Criscuolo</p>
     </header>
     <main>
         <nav>
             <h2>📑 Índice</h2>
             <ul>
                 <li><a href="#intro">Introducción</a></li>
-                <li><a href="#reglas">Reglas Básicas</a></li>
+                <li><a href="#reglas">Reglas del Juego</a></li>
+                <li><a href="#posiciones">Posiciones y Ciegas</a></li>
                 <li><a href="#acciones">Acciones del Jugador</a></li>
-                <li><a href="#etapas">Etapas del Juego</a></li>
-                <li><a href="#manos">Escala de Manos</a></li>
+                <li><a href="#etapas">Etapas de una Mano</a></li>
+                <li><a href="#manos">Escala de Manos Ganadoras</a></li>
                 <li><a href="#estrategias">Estrategias Básicas</a></li>
+                <li><a href="#rangos">Rangos por Posición</a></li>
+                <li><a href="#odds">Odds y Outs</a></li>
                 <li><a href="#ejercicios">Ejercicios</a></li>
                 <li><a href="#glosario">Glosario</a></li>
+                <li><a href="#simulaciones">Simulaciones</a></li>
                 <li><a href="#licencia">Licencia GPL</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
         <section id="intro">
             <h2>🎯 Introducción</h2>
-            <p>Este manual está diseñado para ayudarte a aprender poker Texas Hold'em desde cero...</p>
+            <p>Este manual está diseñado para personas sin experiencia previa en poker Texas Hold'em. Aprenderás las reglas, estrategias básicas, ejemplos visuales y ejercicios.</p>
         </section>
         <section id="reglas">
-            <h2>📘 Reglas Básicas del Juego</h2>
-            <p>Texas Hold’em es una modalidad de poker donde cada jugador recibe 2 cartas ocultas...</p>
+            <h2>📘 Reglas del Juego</h2>
+            <p>Texas Hold’em se juega con una baraja de 52 cartas. Cada jugador recibe 2 cartas privadas y se reparten hasta 5 cartas comunitarias. El objetivo es formar la mejor mano posible combinando ambas.</p>
+        </section>
+        <section id="posiciones">
+            <h2>🧭 Posiciones y Ciegas</h2>
+            <p>En cada mano hay dos apuestas obligatorias: small blind (SB) y big blind (BB). Las posiciones influyen en la estrategia: estar en el botón es más ventajoso que en UTG.</p>
         </section>
         <section id="acciones">
             <h2>🃏 Acciones del Jugador</h2>
-            <p>Las acciones comunes son: Check, Call, Raise, Fold...</p>
+            <p>Las principales acciones son: <strong>Check</strong> (pasar), <strong>Call</strong> (igualar), <strong>Raise</strong> (subir) y <strong>Fold</strong> (retirarse).</p>
         </section>
         <section id="etapas">
-            <h2>🕹 Etapas del Juego</h2>
-            <p>Preflop, Flop, Turn, River...</p>
+            <h2>🕹 Etapas de una Mano</h2>
+            <p>Las etapas del juego son: Preflop, Flop (3 cartas), Turn (4ª carta), River (5ª carta), y Showdown.</p>
         </section>
         <section id="manos">
             <h2>🏆 Escala de Manos Ganadoras</h2>
-            <p>Desde escalera real hasta carta alta...</p>
+            <p>De mayor a menor: Escalera Real, Escalera de Color, Poker, Full House, Color, Escalera, Trío, Doble Par, Par, Carta Alta.</p>
         </section>
         <section id="estrategias">
             <h2>🧠 Estrategias Básicas</h2>
-            <p>Value bet, bluff, slowplay, control del pozo...</p>
+            <p>Incluyen: Value Bet, Bluff, Slowplay, Control del Pozo, Check-Raise, Lectura de Rangos, Defensa de Ciegas, Juego en Posición.</p>
+        </section>
+        <section id="rangos">
+            <h2>📐 Rangos por Posición</h2>
+            <p>UTG: solo manos premium. CO y BTN: manos más amplias. BB: cuidado al defender. La posición manda.</p>
+        </section>
+        <section id="odds">
+            <h2>🔢 Odds y Outs</h2>
+            <p>Outs = cartas que te mejoran. Regla del 2 y 4: multiplicá tus outs x2 (turn) o x4 (flop) para saber la probabilidad aproximada de mejorar tu mano.</p>
         </section>
         <section id="ejercicios">
-            <h2>📓 Ejercicios y Simulaciones</h2>
-            <p>Resuelve situaciones reales paso a paso...</p>
+            <h2>📓 Ejercicios</h2>
+            <p>Simulaciones, decisiones, odds, defensa de ciegas, bluff. Útiles para aplicar lo aprendido.</p>
         </section>
         <section id="glosario">
             <h2>📚 Glosario</h2>
-            <p>BB, SB, All-in, Kicker, Showdown, etc...</p>
+            <p>Call, Raise, Fold, Check, Bluff, Kicker, River, Turn, Flop, Showdown, All-in, BB, SB, etc.</p>
+        </section>
+        <section id="simulaciones">
+            <h2>🧪 Simulaciones</h2>
+            <p>Manos reales analizadas paso a paso: slowplay con trío, bluff en el river, defensa de BB contra robo.</p>
         </section>
         <section id="licencia">
-            <h2>📄 Licencia de Uso - GPL</h2>
-            <p>
-                Este sitio fue creado bajo la Licencia Pública General GNU (GPL).
-                <br>Podés compartir, copiar, modificar y redistribuir el contenido siempre que mantengas la misma licencia.
-            </p>
+            <h2>📄 Licencia GPL</h2>
+            <p>Este sitio está publicado bajo la Licencia Pública General GNU (GPL). Se puede compartir, modificar y redistribuir manteniendo esta misma licencia.</p>
         </section>
         <section id="contacto">
             <h2>📬 Contacto</h2>
-            <p>¿Tenés sugerencias o ideas? Escribime a <a href="mailto:hola@fedecriscuolo.ar">hola@fedecriscuolo.ar</a>.</p>
+            <p>Para sugerencias, escribí a <a href="mailto:hola@fedecriscuolo.ar">hola@fedecriscuolo.ar</a>.</p>
         </section>
     </main>
     <footer>
-        &copy; 2025 Federico Martín Criscuolo · Manual de Poker Texas Hold'em · GPLv3
+        &copy; 2025 Federico Martín Criscuolo · Manual de Poker Texas Hold'em · Licencia GPL
     </footer>
 </body>
 </html>
